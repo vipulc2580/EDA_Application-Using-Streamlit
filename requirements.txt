@@ -4,4 +4,4 @@ matplotlib
 numpy
 seaborn
 plotly
-PIL
+pillow
