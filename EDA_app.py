@@ -198,7 +198,7 @@ if df is not None:
          else:
             dtype1=df[feature1].dtype
             dtype2=df[feature2].dtype
-            st.write(dtype1,dtype2)
+            # st.write(dtype1,dtype2)
             if(isnumerical(dtype1) and isnumerical(dtype2)):
                 options=['Scatter Plot','Joint Plot','Line Plot']
             elif(isnumerical(dtype1) and dtype2=='object'):
